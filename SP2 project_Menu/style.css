@@ -28,46 +28,25 @@ html{
 section{
     padding:2rem 9%;
 }
-.about .row .content{
-    flex:1 1 42rem;
+
+.heading{
+    font-size: 9rem;
+    text-transform: uppercase;
+    color:transparent;
+    -webkit-text-stroke: .05rem var(--main-color);
+    letter-spacing: .2rem;
+    text-align: center;
+    pointer-events: none;
+    position: relative;
 }
 
-.about .row .content .title{
+.heading span{
+    position: absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
     color:var(--main-color);
     font-size: 3rem;
-    line-height: 1.8;
-}
-
-.about .row .content p{
-    color:var(--main-color);
-    font-size: 1.5rem;
-    line-height: 1.8;
-    padding:1rem 0;
-}
-
-.about .row .content .icons-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1rem;
-    padding-top: 3rem;
-}
-
-.about .row .content .icons-container .icons{
-    flex:1 1 15rem;
-    padding:1.5rem;
-    text-align: center;
-    border:var(--border);
-    border-radius: var(--border-radius);
-}
-
-.about .row .content .icons-container .icons img{
-    height: 5rem;
-}
-
-.about .row .content .icons-container .icons h3{
-    font-size: 1.7rem;
-    padding-top: 1rem;
-    color:var(--main-color);
 }
 
 .menu{
