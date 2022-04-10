@@ -1,0 +1,84 @@
+*{box-sizing: border-box;}
+
+h2, h3{
+    margin: 0;
+}
+
+#BxShadow{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+a:hover {
+    color: red;
+  }
+
+body{
+    background: linear-gradient(50deg, green, red, orangered);
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+header{
+    padding: 50px;
+    overflow: hidden;
+}
+
+header > #Logo{
+    font-size: 2em;
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+main{
+    padding: 50px;
+    overflow: hidden;
+}
+
+section{
+    width: 70%;
+    float: left;
+}
+
+article{
+    padding: 20px 0;
+    border-bottom: 1px solid greenyellow;
+}
+
+article:last-child{
+    border-bottom: 0px;
+}
+
+aside{
+    width: 30%;
+    float: right;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside h3{
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside a{
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid lightgray;
+    text-align: center;
+}
